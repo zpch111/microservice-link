@@ -11,7 +11,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 @Configuration
 public class TaskPoolConfig {
     /**
-     * define a theadpoll bean.
+     * define a example threadpool bean
+     * if you want to defind yours.try do it in config file.
      * @return
      */
     @Bean("taskExecutor")
